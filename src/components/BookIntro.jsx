@@ -12,7 +12,7 @@ function BookIntro() {
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
         <div className="md:w-full md:pr-8 mb-4 md:mb-0" data-aos="fade-right">
           <img
-            src="src/assets/six-of-crows.jpg" // Replace with your book cover image path
+            src="./six-of-crows.jpg" // Replace with your book cover image path
             alt="Book Cover"
             className="w-1/2 mt-8 rounded-2xl shadow-lg" // Adjust the size here
           />

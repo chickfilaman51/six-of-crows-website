@@ -6,7 +6,7 @@ function Connection() {
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
         <div className="md:w-1/3" data-aos="fade-right">
           <img
-            src="src/assets/link.png" // Replace with your image path
+            src="./link.png" // Replace with your image path
             alt="link"
             className="w-3/4 mt-8 rounded-2xl shadow-lg" // Adjust the size here
           />

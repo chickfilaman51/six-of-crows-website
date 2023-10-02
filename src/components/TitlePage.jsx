@@ -13,7 +13,7 @@ function TitlePage() {
 
   return (
     <div id = "title-page" className="flex flex-col justify-center items-center text-white min-h-screen top-0" style={{
-      backgroundImage: 'url("src/assets/ketterdam.jpeg")',
+      backgroundImage: 'url("./ketterdam.jpeg")',
       backgroundSize: 'cover', // Set background size to cover
       backgroundRepeat: 'no-repeat', // Prevent image repetition
       backgroundPosition: 'center', // Center the background image
