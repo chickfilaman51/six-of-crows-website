@@ -23,7 +23,7 @@ function Essential() {
         </div>
         <div className="md:w-2/3 mb-4 md:mb-0 ml-20" data-aos="fade-left">
           <img
-            src="src/assets/essential.png" // Replace with your image path
+            src="../src/assets/essential.png" // Replace with your image path
             alt="Essential Image"
             className="w-3/4 mt-8 rounded-2xl shadow-lg" // Adjust the size here
           />
