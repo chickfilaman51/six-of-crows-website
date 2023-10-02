@@ -1,11 +1,12 @@
 import React, { Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
+import ice_court from 'six-of-crows-website/src/assets/ice court.glb';
 
 import CanvasLoader from "../Loader";
 
 const Prototype = ({ isMobile }) => {
-  const model = useGLTF("six-of-crows-website/src/assets/ice court.glb");
+  const model = useGLTF(ice_court);
 
   return (
     <mesh>
