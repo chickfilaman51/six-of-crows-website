@@ -5,7 +5,7 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 const Prototype = ({ isMobile }) => {
-  const model = useGLTF("src/assets/ice court.glb");
+  const model = useGLTF("six-of-crows-website/src/assets/ice court.glb");
 
   return (
     <mesh>
